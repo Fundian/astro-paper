@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://www.fundian.xyz/", // replace this with your deployed domain
   author: "放電",
   desc: "怪獸保育園, 無條件基本收入",
-  title: "Fundian's website",
+  title: "Fundian",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 5,
