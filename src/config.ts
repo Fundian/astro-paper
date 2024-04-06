@@ -3,7 +3,7 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://www.fundian.xyz/", // replace this with your deployed domain
   author: "放電",
-  desc: "怪獸保育園, 無條件基本收入",
+  desc: "放電, 怪獸保育園創辦人",
   title: "Fundian",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
