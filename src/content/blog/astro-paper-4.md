@@ -9,7 +9,7 @@ tags:
   - 隨筆
 ogImage: "![something](../../assets/images/vegen.png)"
 description: "在這篇文章中，我分享了我的素食之旅是如何開始的。"
-canonicalURL: https://fundian.xyz/vegetarian-journey
+canonicalURL: https://fundian.xyz/vegetarian-journey-50days
 ---
 
 在大自然中，吃與被吃是一件在正常不過的事情了。我的素食之旅始於一個突然出現的念頭。在日本文化中，人們在吃飯前會合掌說「いただきます」（意即「我領受」），這是對將要享用的食物表達感謝的一種方式，不僅是對食物的感謝，也對大自然的恩賜及所有參與食物製作過程的人表達敬意。
