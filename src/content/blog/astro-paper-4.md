@@ -1,5 +1,5 @@
 ---
-title: 素食之旅
+title: 一段突如其來的素食之旅
 author: 放電
 pubDatetime: 2024-04-26T09:51:07.952Z
 slug: Vegetarian Journey
@@ -8,7 +8,7 @@ draft: false
 tags:
   - 隨筆
 ogImage: "default"
-description: "探索一段改變飲食的素食之旅，從「いただきます」延伸到自我反省，分享如何透過素食來肩負起生命的重量，以及這個決定如何豐富我的日常生活。"
+description: "你能背負起生命的重量嗎？在這篇文章中，我分享了我的素食之旅是如何開始的。"
 canonicalURL: https://fundian.xyz/vegetarian-journey
 ---
 
