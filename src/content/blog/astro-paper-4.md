@@ -7,8 +7,8 @@ featured: false
 draft: false
 tags:
   - 隨筆
-ogImage: "![something](@assets/images/vegen.png)"
-description: "你能背負起生命的重量嗎？在這篇文章中，我分享了我的素食之旅是如何開始的。"
+ogImage: "![something](apparent-apogee\src\assets\images\vegen.png)
+description: "在這篇文章中，我分享了我的素食之旅是如何開始的。"
 canonicalURL: https://fundian.xyz/vegetarian-journey
 ---
 
