@@ -1,125 +1,32 @@
 ---
-author: Sat Naing
-pubDatetime: 2024-01-04T09:30:41.816Z
-title: AstroPaper 4.0
-slug: "astro-paper-v4"
+author: 放電
+pubDatetime: 2024-04-26T08:50:43.504Z
+title: 素食之旅
+slug: "Vegetarian Journey"
 featured: true
-ogImage: "![something](@assets/images/vegen.png)
-"
+ogImage: "![something](@assets/images/vegen.png)"
 tags:
-  - release
-description: "AstroPaper v4: ensuring a smoother and more feature-rich blogging experience."
+  - 隨筆
+description: "探索一段改變生活的素食之旅，從日本的「いただきます」到深刻的自我反省，分享如何透過素食選擇來肩負起生命的重量，以及這個決定如何豐富我的日常生活。"
 ---
 
-Hello everyone! Wishing you a happy New Year 🎉 and all the best for 2024! We're excited to announce the release of AstroPaper v4, a significant update that introduces a range of new features, improvements, and bug fixes to elevate your blogging experience. A big thank you to all the contributors for their valuable input and efforts in making version 4 possible!
+在大自然中，吃與被吃是一件在正常不過的事情了。我的素食之旅始於一個突然出現的念頭。在日本文化中，人們在吃飯前會合掌說「いただきます」（意即「我領受」），這是對將要享用的食物表達感謝的一種方式，不僅是對食物的感謝，也對大自然的恩賜及所有參與食物製作過程的人表達敬意。
 
-![AstroPaper v4](@assets/images/AstroPaper-v4.png)
+這種對食物表達感謝的文化讓我陷入了深深的思考。雖然過去我一直很感謝能夠擁有食物，也很珍惜它們，但我發現自己並沒有真正承擔起肉食背後生命的重量。我的意思是，如果我不能做到親手結束一頭牛或一隻羊的生命，我怎麼能打從心底感謝它們呢？這與許多喜歡吃肉的人在看到工廠養殖的影片後感到殘忍的矛盾情感是很相似的。在今天這個時代，我們絕大多數的人都不需要親自參與屠宰動物的過程，這讓我陷入了某種深深的矛盾。
 
-## Table of contents
+後來我了解到「肉品拒絕分離」（meat paradox）這一個心理學理論，它描述了許多人在享用肉類的同時，對於動物的屠宰感到內心不適或反感。這種心理狀態促使我開始重新評估自己的飲食選擇，尋找一條既能承擔起生命的重量也能維持健康與環保的道路。
 
-## Major Changes
+今天是我吃素的第 50 天。這段時間，我仍然保持對每一口食物的感謝，並體驗到市場上豐富多樣的素食選擇，從全素漢堡、披薩到多樣的豆製品和創意素食料理等。這些都是我沒有嘗試過的，這個過程它既不單調也不困難，對我來說是很享受的。
 
-### Upgrade to Astro v4 [#202](https://github.com/satnaing/astro-paper/pull/202)
+我無意改變任何人的想法，只想分享一下自己最近的經歷，祝福每一位閱讀這篇文章的人都能找到適合自己的飲食道路，享受健康和幸福的生活。能吃就是福，擁有食物能填飽肚子已經是很幸福的一件事情了。我能選擇吃素，這也是一件很幸運的事情。
 
-AstroPaper now leverages the power and capabilities of Astro v4. However, it’s a subtle upgrade and won’t break most Astro users.
+最後說個題外話，如果所有想吃肉的人都必須參與認證，親手宰殺一頭牛或一隻羊，不知道會不會有更多人選擇吃素呢XD。有些人說植物也是生命，但我認為最後還是回歸到自己能否承擔起這些生命的重量。如果有一天我能承擔起動物生命的重量，又或是我沒有選擇了，那我也是有可能會回到吃肉的行列的。
 
-![Astro v4](https://astro.build/_astro/header-astro-4.GLp8HjfV.webp)
+### 參考資料
 
-### Replace `postSlug` with Astro Content `slug` [#197](https://github.com/satnaing/astro-paper/pull/197)
+- [世界動物基金會 - 對肉類消費態度的轉變：了解素食統計數據](https://worldanimalfoundation.org/advocate/vegetarian-statistics/)
+- [Someday Japan - 「いただきます」的深層意義及正確用法](https://somedayjapan.com/the-deeper-meaning-and-correct-usage-of-itadakimasu/)
+- [維基百科 - 吃肉的心理學](https://en.wikipedia.org/wiki/Psychology_of_eating_meat)
+- [PubMed Central - 肉類悖論、雜食者的意志薄弱，以及動物倫理](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6940846/)
 
-The `postSlug` in the blog content schema is no longer available in AstroPaper v4. Initially Astro doesn't have a `slug` mechanism and thus we have to figure it out on our own. Since Astro v3, it supports content collection and slug features. Now, we believe it's time to adopt Astro's out-of-the-box `slug` feature.
-
-**_file: src/content/blog/astro-paper-4.md_**
-
-```bash
----
-author: Sat Naing
-pubDatetime: 2024-01-01T04:35:33.428Z
-title: AstroPaper 4.0
-slug: "astro-paper-v4" # if slug is not specified, it will be 'astro-paper-4' (file name).
-# slug: "" ❌ cannot be an empty string
----
-```
-
-The behavior of the `slug` is slightly different now. In the previous versions of AstroPaper, if the `postSlug` is not specified in a blog post (markdown file), the title of that blog post would be slugified and used as the `slug`. However, in AstroPaper v4, if the `slug` field is not specified, the markdown file name will be used as the `slug`. One thing to keep in mind is that the `slug` field can be omitted, but it cannot be an empty string (slug: "" ❌).
-
-If you're upgrading AstroPaper from v3 to v4, make sure to replace `postSlug` in your `src/content/blog/*.md` files with `slug`.
-
-## New Features
-
-### Add code-snippets for content creation [#206](https://github.com/satnaing/astro-paper/pull/206)
-
-AstroPaper now includes VSCode snippets for new blog posts, eliminating the need for manual copy/pasting of the frontmatter and content structure (table of contents, heading, excerpt, etc.).
-
-Read more about VSCode Snippets [here](https://code.visualstudio.com/docs/editor/userdefinedsnippets#:~:text=In%20Visual%20Studio%20Code%2C%20snippets,Snippet%20in%20the%20Command%20Palette).
-
-<video autoplay muted="muted" controls plays-inline="true" class="border border-skin-line">
-  <source src="https://github.com/satnaing/astro-paper/assets/53733092/136f1903-bade-40a2-b6bb-285a3c726350" type="video/mp4">
-</video>
-
-### Add Modified Datetime in Blog Posts [#195](https://github.com/satnaing/astro-paper/pull/195)
-
-Keep readers informed about the latest updates by displaying the modified datetime in blog posts. This not only instills user trust in the freshness of the articles but also contributes to improved SEO for the blog.
-
-![Last Modified Date feature in AstroPaper](https://github.com/satnaing/astro-paper/assets/53733092/cc89585e-148e-444d-9da1-0d496e867175)
-
-You can add a `modDatetime` to your blog post if you've made modifications. Now, the sorting behavior of the posts is slightly different. All posts are sorted by both `pubDatetime` and `modDatetime`. If a post has both a `pubDatetime` and `modDatetime`, its sorting position will be determined by the `modDatetime`. If not, only `pubDatetime` will be considered to determine the post's sorting order.
-
-### Implement Back-to-Top Button [#188](https://github.com/satnaing/astro-paper/pull/188)
-
-Enhance user navigation on your blog detail post with the newly implemented back-to-top button.
-
-![Back to top button in AstroPaper](https://github.com/satnaing/astro-paper/assets/53733092/79854957-7877-4f19-936e-ad994b772074)
-
-### Add Pagination in Tag Posts [#201](https://github.com/satnaing/astro-paper/pull/201)
-
-Improve content organization and navigation with the addition of pagination in tag posts, making it easier for users to explore related content. This ensures that if a tag has many posts, readers won't be overwhelmed by all the tag-related posts.
-
-<video autoplay loop="loop" muted="muted" plays-inline="true" class="border border-skin-line">
-  <source src="https://github.com/satnaing/astro-paper/assets/53733092/9bad87f5-dcf5-4b79-b67a-d6c7244cd616" type="video/mp4">
-</video>
-
-### Dynamically Generate robots.txt [#130](https://github.com/satnaing/astro-paper/pull/130)
-
-AstroPaper v4 now dynamically generates the robots.txt file, giving you more control over search engine indexing and web crawling. Besides, sitemap URL will also be added inside `robot.txt` file.
-
-### Add Docker-Compose File [#174](https://github.com/satnaing/astro-paper/pull/174)
-
-Managing your AstroPaper environment is now easier than ever with the addition of a Docker-Compose file, simplifying deployment and configuration.
-
-## Refactoring & Bug Fixes
-
-### Replace Slugified Title with Unslugified Tag Name [#198](https://github.com/satnaing/astro-paper/pull/198)
-
-To improve clarity, user experience and SEO, titles (`Tag: some-tag`) in tag page are no longer slugified (`Tag: Some Tag`).
-
-![Unslugified Tag Names](https://github.com/satnaing/astro-paper/assets/53733092/2fe90d6e-ec52-467b-9c44-95009b3ae0b7)
-
-### Implement 100svh for Min-Height ([79d569d](https://github.com/satnaing/astro-paper/commit/79d569d053036f2113519f41b0d257523d035b76))
-
-We've updated the min-height on the body to use 100svh, offering a better UX for mobile users.
-
-### Update Site URL as Single Source of Truth [#143](https://github.com/satnaing/astro-paper/pull/143)
-
-The site URL is now a single source of truth, streamlining configuration and avoiding inconsistencies. Read more at this [PR](https://github.com/satnaing/astro-paper/pull/143) and its related issue(s).
-
-### Solve Invisible Text Code Block Issue in Light Mode [#163](https://github.com/satnaing/astro-paper/pull/163)
-
-We've fixed the invisible text code block issue in light mode.
-
-### Decode Unicode Tag Characters in Breadcrumb [#175](https://github.com/satnaing/astro-paper/pull/175)
-
-The last part of Tag in the breadcrumb is now decoded, making non-English Unicode characters display better.
-
-### Update LOCALE Config to Cover Overall Locales ([cd02b04](https://github.com/satnaing/astro-paper/commit/cd02b047d2b5e3b4a2940c0ff30568cdebcec0b8))
-
-The LOCALE configuration has been updated to cover a broader range of locales, catering to a more diverse audience.
-
-## Outtro
-
-We believe these updates will significantly elevate your AstroPaper experience. Thank you to everyone who contributed, solved issues, and gave stars to AstroPaper. We look forward to seeing the amazing content you create with AstroPaper v4!
-
-Happy Blogging!
-
-[Sat Naing](https://satnaing.dev) <br/>
-Creator of AstroPaper
+Creator of 放電
