@@ -1,10 +1,10 @@
 ---
 author: 放電
-pubDatetime: 2024-04-26T08:50:43.504Z
+pubDatetime: 2024-04-26T17:30:43.504Z
 title: 素食之旅
 slug: "Vegetarian Journey"
-featured: true
-ogImage: "![something](@assets/images/vegen.png)"
+featured: false
+ogImage: "![something](assets/images/vegen.png)"
 tags:
   - 隨筆
 description: "探索一段改變生活的素食之旅，從日本的「いただきます」到深刻的自我反省，分享如何透過素食選擇來肩負起生命的重量，以及這個決定如何豐富我的日常生活。"
@@ -22,11 +22,12 @@ description: "探索一段改變生活的素食之旅，從日本的「いただ
 
 最後說個題外話，如果所有想吃肉的人都必須參與認證，親手宰殺一頭牛或一隻羊，不知道會不會有更多人選擇吃素呢XD。有些人說植物也是生命，但我認為最後還是回歸到自己能否承擔起這些生命的重量。如果有一天我能承擔起動物生命的重量，又或是我沒有選擇了，那我也是有可能會回到吃肉的行列的。
 
-### 參考資料
+## 參考資料
 
 - [世界動物基金會 - 對肉類消費態度的轉變：了解素食統計數據](https://worldanimalfoundation.org/advocate/vegetarian-statistics/)
 - [Someday Japan - 「いただきます」的深層意義及正確用法](https://somedayjapan.com/the-deeper-meaning-and-correct-usage-of-itadakimasu/)
 - [維基百科 - 吃肉的心理學](https://en.wikipedia.org/wiki/Psychology_of_eating_meat)
 - [PubMed Central - 肉類悖論、雜食者的意志薄弱，以及動物倫理](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6940846/)
+
 
 Creator of 放電
