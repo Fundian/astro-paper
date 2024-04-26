@@ -7,7 +7,7 @@ featured: false
 draft: false
 tags:
   - 隨筆
-ogImage: "default"
+ogImage: "![封面](https://media.discordapp.net/attachments/713349504820051979/1233359234809204736/vegen.png?ex=662ccecc&is=662b7d4c&hm=04c68a4e55196418f0cfe7d22fec742204c358c2b2cbb51374db8e27c396cbf4&=&format=webp&quality=lossless)"
 description: "你能背負起生命的重量嗎？在這篇文章中，我分享了我的素食之旅是如何開始的。"
 canonicalURL: https://fundian.xyz/vegetarian-journey
 ---
