@@ -4,7 +4,7 @@ pubDatetime: 2024-04-26T17:30:43.504Z
 title: 素食之旅
 slug: "Vegetarian Journey"
 featured: false
-ogImage: "![something](assets/images/vegen.png)"
+ogImage: "![封面](@assets/images/vegen.png)"
 tags:
   - 隨筆
 description: "探索一段改變生活的素食之旅，從日本的「いただきます」到深刻的自我反省，分享如何透過素食選擇來肩負起生命的重量，以及這個決定如何豐富我的日常生活。"
@@ -31,3 +31,6 @@ description: "探索一段改變生活的素食之旅，從日本的「いただ
 
 
 Creator of 放電
+
+
+[def]: assets/images/vegen.png
