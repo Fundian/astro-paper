@@ -1,14 +1,14 @@
 ---
 title: 素食之旅
 author: 放電
-pubDatetime: 2024-04-26T17:30:19Z
+pubDatetime: 2024-04-26T09:51:07.952Z
 slug: Vegetarian Journey
 featured: false
 draft: false
 tags:
   - 隨筆
-ogImage: "ogImage: ![something](apparent-apogee/src/@assets/images/@vegen.png)"
-description: 探索一段改變飲食的素食之旅，從「いただきます」延伸到自我反省，分享如何透過素食來肩負起生命的重量，以及這個決定如何豐富我的日常生活。
+ogImage: "default"
+description: "探索一段改變飲食的素食之旅，從「いただきます」延伸到自我反省，分享如何透過素食來肩負起生命的重量，以及這個決定如何豐富我的日常生活。"
 canonicalURL: https://fundian.xyz/vegetarian-journey
 ---
 
