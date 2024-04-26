@@ -1,13 +1,16 @@
 ---
-author: 放電
-pubDatetime: 2024-04-26T17:30:43.504Z
 title: 素食之旅
-slug: "Vegetarian-Journey"
+author: 放電
+pubDatetime: 2024-04-26T17:30:19Z
+slug: Vegetarian Journey
 featured: false
-ogImage: "![封面](@assets/images/AstroPaper-v4.png)"
+draft: false
 tags:
   - 隨筆
-description: "探索一段改變生活的素食之旅，從日本的「いただきます」到深刻的自我反省，分享如何透過素食選擇來肩負起生命的重量，以及這個決定如何豐富我的日常生活。"
+ogImage: "![something](apparent-apogee\src\@assets\images\@vegen.png)"
+description: 探索一段改變飲食的素食之旅，從「いただきます」延伸到自我反省，分享如何透過素食來肩負起生命的重量，以及這個決定如何豐富我的日常生活。
+canonicalURL: https://fundian.xyz/vegetarian-journey
+---
 ---
 
 在大自然中，吃與被吃是一件在正常不過的事情了。我的素食之旅始於一個突然出現的念頭。在日本文化中，人們在吃飯前會合掌說「いただきます」（意即「我領受」），這是對將要享用的食物表達感謝的一種方式，不僅是對食物的感謝，也對大自然的恩賜及所有參與食物製作過程的人表達敬意。
